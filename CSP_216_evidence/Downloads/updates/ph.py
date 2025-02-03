@@ -12,7 +12,7 @@ def monitor():
       mesg = "pH level too high!"
     
   except:
-    print("ph")
+    print("Error")
     
   return mesg
 

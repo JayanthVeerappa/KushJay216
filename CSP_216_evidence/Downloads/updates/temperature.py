@@ -7,7 +7,7 @@ def monitor():
 
     # get multiple temperature readings
     temp_readings = get_temps()
-    num_readings = 0
+    num_readings = 3
 
     # sum adds up all items in list
     ave_temp = sum(temp_readings)
@@ -19,7 +19,7 @@ def monitor():
       mesg = "Average temperature too warm!"
     
   except:
-    print("Temperature")
+    print("Error")
 
   return mesg
 
